@@ -84,3 +84,4 @@ La guía solicita JDK 21. El código también se ha comprobado con Java 17.
 Cada integrante trabaja en su rama y abre un pull request hacia `main`. 
 - **Fase 3:** Justin lidera la integración y evaluación de los aportes del Grupo 3.
 Después de integrar, se comprueban los resultados y se actualiza la documentación.
+[APE 3 · Deber individual — Fase 3 (Grupo 3).pdf](https://github.com/user-attachments/files/33805535/APE.3.Deber.individual.Fase.3.Grupo.3.pdf)
