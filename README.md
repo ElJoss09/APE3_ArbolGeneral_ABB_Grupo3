@@ -7,6 +7,14 @@ El Sistema Jerárquico Académico UTA utiliza dos estructuras:
 - Un árbol general para representar la organización académica: universidad, facultades, carreras, niveles y paralelos.
 - Un árbol binario de búsqueda por cada paralelo para gestionar estudiantes ordenados por matrícula.
 
+### Integrantes (Grupo 4)
+
+- Edwin David Guamanquispe Guaman
+- Justin Alexander Guanoquiza Aguaguiña
+- Everly Oseas Ortiz Yaucan
+- José Ernesto Sierra Mera
+- Walter Fernando Villacrés López
+
 ## Organización del repositorio
 
 | Carpeta                    | Contenido                                                                                                                                                         |
@@ -14,6 +22,7 @@ El Sistema Jerárquico Académico UTA utiliza dos estructuras:
 | [Grupo1](Grupo1/README.md) | Fase 1: caso práctico, modelos, enumerados, diagramas, datos de prueba y código base.                                                                             |
 | [Grupo2](Grupo2/README.md) | Fase 2: inserción, búsqueda, recorridos recursivos, trazas y consultas del árbol general. Incluye modificación y eliminación del ABB como adelantos de la Fase 3. |
 | [Grupo3](Grupo3/README.md) | Fase 3: transformación a binario, eliminación segura, casos límite, estadísticas del ABB y clínica de errores.                                                    |
+| [Grupo4](Grupo4/README.md) | Fase 4: reto práctico integrador SJA-UTA, consolidación de operaciones en el menú y validación de consistencia ante modificaciones, eliminaciones y traslados.  |
 
 ## Fase 1 — Modelado y estructura base
 
@@ -71,16 +80,26 @@ Esta fase integra operaciones avanzadas sobre las estructuras base, garantizando
 - [`/docs`](Grupo3/docs): Trazas de escritorio sobre la transformación y documentación de casos límite del sistema.
 - [`/facilitacion`](Grupo3/facilitacion): Material interactivo para la clase, incluyendo la Clínica de Errores, la Lista de Cotejo y accesos a Padlet/Quizizz.
 
+## 🏆 Fase 4 — Reto Práctico Integrador y Consistencia (Grupo 4)
+
+Esta fase corresponde al **Reto Práctico Integrador SJA-UTA**, donde se completan y comprueban las operaciones del sistema conservando la arquitectura de paquetes (`enums`, `modelo`, `negocio`, `app`) y la jerarquía inicial de la UTA (`UTA → FCHE → EB → EB-N1`, con los paralelos `EB-N1-A` y `EB-N1-B`).
+
+- **Integración en el Menú:** Incorporación completa de las operaciones solicitadas dentro del flujo de la aplicación de consola.
+- **Consistencia de Datos y Reglas de Negocio:** Comprobación de la integridad tanto de la estructura académica (árbol general) como de los registros estudiantiles (ABB ordenados por matrícula) tras ejecutar modificaciones, eliminaciones y traslados entre paralelos.
+- **Documentación del Reto:** [README del Grupo 4](Grupo4/README.md) y código fuente en [`Grupo4/src`](Grupo4/src).
+
 ## Ejecución
 
 Consultar las instrucciones del README de cada grupo en su respectiva carpeta.
 
-Los proyectos se compilan por separado porque contienen clases con los mismos nombres y paquetes. **No compilar juntos los archivos Java de Grupo1, Grupo2 y Grupo3.**
+Los proyectos se compilan por separado porque contienen clases con los mismos nombres y paquetes. **No compilar juntos los archivos Java de Grupo1, Grupo2, Grupo3 y Grupo4.**
 
 La guía solicita JDK 21. El código también se ha comprobado con Java 17.
 
 ## Trabajo colaborativo
 
-Cada integrante trabaja en su rama y abre un pull request hacia `main`. 
+Cada integrante trabaja en su rama y abre un pull request hacia `main`.
 - **Fase 3:** Justin lidera la integración y evaluación de los aportes del Grupo 3.
+- **Fase 4:** Integración del Reto Práctico del Grupo 4 al repositorio principal del proyecto.
+
 Después de integrar, se comprueban los resultados y se actualiza la documentación.
